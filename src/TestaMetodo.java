@@ -17,5 +17,9 @@ public class TestaMetodo {
         conta2.transfere(300, conta1);
         System.out.println(conta2.saldo);
         System.out.println(conta1.saldo);
+
+        conta1.titular = "1";
+        System.out.println(conta1.titular);
+
     }
 }
